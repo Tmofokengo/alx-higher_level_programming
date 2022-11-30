@@ -8,7 +8,7 @@ else:
 if x > 5:
     print("Last digit of {:d} is {:d} and is greater than 5".format(number, x))
 elif x == 0:
-    print("Last digit of {:d} is {:d} and is equal to 0".format(number, x))			
+    print("Last digit of {:d} is {:d} and is equal to 0".format(number, x))
 elif x < 6 and x != 0:
-    print("Last digit of {:d} is {:d}".format(number, x), end= " ")
+    print("Last digit of {:d} is {:d}".format(number, x), end=" ")
     print("and is not equal to zero.")
